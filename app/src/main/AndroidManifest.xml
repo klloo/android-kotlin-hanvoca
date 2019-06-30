@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.onejo.hanvoca_v1_release">
+
+    <application
+            android:name="hanvoca_v1_release.MyApplication"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="HanVoca"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name="hanvoca_v1_release.AddWordActivity">
+        </activity>
+        <activity android:name="hanvoca_v1_release.AddVocaActivity">
+        </activity>
+        <activity android:name="hanvoca_v1_release.DelWordActivity">
+        </activity>
+        <activity android:name="hanvoca_v1_release.TestActivity">
+        </activity>
+        <activity android:name="hanvoca_v1_release.Test_setDetailActivity">
+        </activity>
+        <activity android:name="hanvoca_v1_release.Test_SelectVocaActivity">
+        </activity>
+        <activity android:name="hanvoca_v1_release.DelVocaActivity">
+        </activity>
+        <activity android:name="hanvoca_v1_release.getWordActivity">
+        </activity>
+
+        <activity android:name="hanvoca_v1_release.SplashActivity"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="hanvoca_v1_release.ShowVocaActivity">
+        </activity>
+        <activity android:name="hanvoca_v1_release.SelectModeActivity">
+        </activity>
+        <activity android:name="hanvoca_v1_release.ShowBlinkerModeActivity">
+        </activity>
+        <activity android:name="hanvoca_v1_release.ShowUserModeActivity">
+        </activity>
+        <activity android:name="hanvoca_v1_release.ResultActivity">
+        </activity>
+        <activity android:name="hanvoca_v1_release.MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

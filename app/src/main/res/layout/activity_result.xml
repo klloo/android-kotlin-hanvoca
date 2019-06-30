@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:orientation="vertical">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/word2"
+            tools:layout_editor_absoluteX="3dp" android:id="@+id/linearLayout2" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_weight="5">
+        <TextView
+                android:text="결과"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:id="@+id/resultText" android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp" android:textSize="30sp" android:textAlignment="center"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="84dp">
+            <TextView
+                    android:text="정답"
+                    android:layout_width="65dp"
+                    android:layout_height="73dp" android:id="@+id/textView7" android:layout_weight="1"
+                    android:textSize="24sp" android:textAlignment="center"
+                    android:background="@drawable/setdetail" android:gravity="center"/>
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="65dp"
+                    android:layout_height="73dp" android:id="@+id/scoreText" android:layout_weight="1"
+                    android:textSize="24sp" android:textAlignment="center" android:background="@drawable/modeselimage"
+                    android:gravity="center"/>
+        </LinearLayout>
+        <TextView
+                android:text="틀린 단어"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView6"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textStyle="italic"
+                android:textAlignment="center"/>
+        <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/wrongListView" tools:listitem="@layout/word2">
+        </ListView>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="443dp"
+            android:layout_height="wrap_content" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" tools:layout_editor_absoluteX="-13dp"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content">
+        </LinearLayout>
+        <Button
+                android:layout_width="160dp"
+                android:layout_height="75dp" android:id="@+id/exitBtn"
+                android:background="@drawable/exit"/>
+    </LinearLayout>
+</LinearLayout>
