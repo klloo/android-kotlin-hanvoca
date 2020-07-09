@@ -6,4 +6,7 @@
 TEAM 1
 이유진, 장희영, 김지희 , 유연주, 김수빈
 
-단어장 프로그램
+
+
+![image](https://user-images.githubusercontent.com/53117014/87045254-a4f69c00-c232-11ea-9ce0-559023b9783b.png)
+
