@@ -1,8 +1,9 @@
 # HanVoca
 
 
-Software Engineering (EA0008 (2)) [First Semester] In SMU
+#### 2019년도 1학기 소프트웨어공학 팀프로젝트
 
 TEAM 1
 이유진, 장희영, 김지희 , 유연주, 김수빈
 
+단어장 프로그램
